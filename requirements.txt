@@ -1,0 +1,21 @@
+opencv-python # first opencv。opencv-python 是只包含了主要模块的包，
+opencv-contrib-python==3.4.2.16 # opencv-contrib-python包含了主要模块以及扩展模块，扩展模块主要是包含了一些带专利的收费算法（如shift特征检测）以及一些在测试的新的算法（稳定后会合并到主要模块）。
+DateTime==4.3
+easydict==1.9
+imageio==2.6.1
+matplotlib==3.0.3
+progressbar==2.5
+pyparsing==2.3.1
+pypng==0.0.20
+PyYAML==5.1
+scikit-image==0.14.2
+tensorboardX==1.9 # first tensorboard  tensorboard做为Tensorflow中强大的可视化工具，已经被普遍使用。有人写了一个库函数TensorboardX来让PyTorch也可以使用tensorboard。
+tqdm==4.31.1
+
+# conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=10.2 -c pytorch
+# python==3.7.10
+# easydict==1.9 -c conda-forge
+# matplotlib==3.0.3 path scipy opencv
+# tensorboard
+
+# minieigen 需要手动安装 eigen boost-python

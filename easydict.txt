@@ -1,0 +1,61 @@
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... 
+Warning: >10 possible package resolutions (only showing differing packages):
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64::eigen-3.2.8-2, https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64::freeglut-2.8.1-0, https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64::libuuid-1.0.3-0, https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64::ninja-1.7.2-0
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64::freeglut-2.8.1-0, https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64::libuuid-1.0.3-0, https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64::ninja-1.7.2-0, https://mirrors.ustc.edu.cn/anaconda/pkgs/free/linux-64::eigen-3.2.8-2
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64::eigen-3.2.8-2, https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64::libuuid-1.0.3-0, https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64::ninja-1.7.2-0, https://mirrors.ustc.edu.cn/anaconda/pkgs/free/linux-64::freeglut-2.8.1-0
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64::libuuid-1.0.3-0, https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64::ninja-1.7.2-0, https://mirrors.ustc.edu.cn/anaconda/pkgs/free/linux-64::eigen-3.2.8-2, https://mirrors.ustc.edu.cn/anaconda/pkgs/free/linux-64::freeglut-2.8.1-0
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64::eigen-3.2.8-2, https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64::ninja-1.7.2-0, https://mirrors.ustc.edu.cn/anaconda/pkgs/free/linux-64::freeglut-2.8.1-0, https://mirrors.ustc.edu.cn/anaconda/pkgs/free/linux-64::libuuid-1.0.3-0
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64::ninja-1.7.2-0, https://mirrors.ustc.edu.cn/anaconda/pkgs/free/linux-64::eigen-3.2.8-2, https://mirrors.ustc.edu.cn/anaconda/pkgs/free/linux-64::freeglut-2.8.1-0, https://mirrors.ustc.edu.cn/anaconda/pkgs/free/linux-64::libuuid-1.0.3-0
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64::eigen-3.2.8-2, https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64::freeglut-2.8.1-0, https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64::ninja-1.7.2-0, https://mirrors.ustc.edu.cn/anaconda/pkgs/free/linux-64::libuuid-1.0.3-0
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64::freeglut-2.8.1-0, https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64::ninja-1.7.2-0, https://mirrors.ustc.edu.cn/anaconda/pkgs/free/linux-64::eigen-3.2.8-2, https://mirrors.ustc.edu.cn/anaconda/pkgs/free/linux-64::libuuid-1.0.3-0
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64::eigen-3.2.8-2, https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64::freeglut-2.8.1-0, https://mirrors.ustc.edu.cn/anaconda/pkgs/free/linux-64::libuuid-1.0.3-0, https://mirrors.ustc.edu.cn/anaconda/pkgs/free/linux-64::ninja-1.7.2-0
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64::eigen-3.2.8-2, https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64::freeglut-2.8.1-0, https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64::libuuid-1.0.3-0, https://mirrors.ustc.edu.cn/anaconda/pkgs/free/linux-64::ninja-1.7.2-0
+  ... and othersdone
+
+## Package Plan ##
+
+  environment location: /home/lokia/Documents/anaconda3/envs/sf2
+
+  added / updated specs:
+    - easydict
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    certifi-2023.5.7           |     pyhd8ed1ab_0         149 KB  conda-forge
+    openssl-1.1.1l             |       h7f98852_0         2.1 MB  conda-forge
+    ------------------------------------------------------------
+                                           Total:         2.3 MB
+
+The following NEW packages will be INSTALLED:
+
+  easydict           conda-forge/noarch::easydict-1.9-py_0 
+
+The following packages will be UPDATED:
+
+  certifi            anaconda/pkgs/main/linux-64::certifi-~ --> conda-forge/noarch::certifi-2023.5.7-pyhd8ed1ab_0 
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  ca-certificates    anaconda/pkgs/main::ca-certificates-2~ --> conda-forge::ca-certificates-2023.5.7-hbcca054_0 
+  openssl            anaconda/pkgs/main::openssl-1.1.1u-h7~ --> conda-forge::openssl-1.1.1l-h7f98852_0 
+
+
+Proceed ([y]/n)? 
+
+Downloading and Extracting Packages
+openssl-1.1.1l       | 2.1 MB    |            |   0% 
+certifi-2023.5.7     | 149 KB    |            |   0% [A
+certifi-2023.5.7     | 149 KB    | #          |  11% [A
+certifi-2023.5.7     | 149 KB    | ###2       |  32% [A
+certifi-2023.5.7     | 149 KB    | #####3     |  54% [Aopenssl-1.1.1l       | 2.1 MB    |            |   1% openssl-1.1.1l       | 2.1 MB    | 3          |   4% openssl-1.1.1l       | 2.1 MB    | 5          |   6% 
+certifi-2023.5.7     | 149 KB    | #######5   |  75% [A
+certifi-2023.5.7     | 149 KB    | ########## | 100% [A
+certifi-2023.5.7     | 149 KB    | ########## | 100% [Aopenssl-1.1.1l       | 2.1 MB    | 7          |   7% openssl-1.1.1l       | 2.1 MB    | #          |  10% openssl-1.1.1l       | 2.1 MB    | #2         |  12% openssl-1.1.1l       | 2.1 MB    | ##1        |  21% openssl-1.1.1l       | 2.1 MB    | ##4        |  25% openssl-1.1.1l       | 2.1 MB    | ##8        |  29% openssl-1.1.1l       | 2.1 MB    | ###3       |  34% openssl-1.1.1l       | 2.1 MB    | ###9       |  40% openssl-1.1.1l       | 2.1 MB    | ####6      |  46% openssl-1.1.1l       | 2.1 MB    | #####1     |  51% openssl-1.1.1l       | 2.1 MB    | #####9     |  59% openssl-1.1.1l       | 2.1 MB    | #######1   |  71% openssl-1.1.1l       | 2.1 MB    | #######8   |  78% openssl-1.1.1l       | 2.1 MB    | ########## | 100% openssl-1.1.1l       | 2.1 MB    | ########## | 100%                                                      
+                                                     [A
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
